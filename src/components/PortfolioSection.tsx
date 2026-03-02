@@ -115,7 +115,7 @@ const PortfolioSection = () => {
 
                 {/* CTA */}
                 <a
-                  href="https://equinoxinteractive.github.io/BoxSiege/"
+                  href="https://box-siege.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 btn-primary font-orbitron text-sm"
