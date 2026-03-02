@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import teamImage from '@/assets/team.png';
+import teamImage from '@/assets/Team.png';
 
 const AboutSection = () => {
   const [isVisible, setIsVisible] = useState(false);
