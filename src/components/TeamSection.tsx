@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { Instagram } from 'lucide-react';
+import { Github } from 'lucide-react';
 import badutzy from '@/assets/BadutZY.jpg';
 import swimmingfox from '@/assets/SwimmingFOX.jpg';
 import ari8bit from '@/assets/Ari.jpg';
@@ -9,19 +9,19 @@ const teamMembers = [
     name: 'BadutZY',
     role: 'Lead Programmer',
     image: badutzy,
-    instagram: 'https://www.instagram.com/rzky.mp_36'
+    github: 'https://github.com/BadutZY'
   },
   {
     name: 'SwimmingFox',
     role: 'Art Director',
     image: swimmingfox,
-    instagram: 'https://www.instagram.com/swimmingfoxx_'
+    github: 'https://github.com/Marrwertz'
   },
   {
     name: 'Ari8Bit',
     role: 'Sound Designer',
     image: ari8bit,
-    instagram: 'https://www.instagram.com/gamersindo_17'
+    github: 'https://github.com/AriAja17'
   },
 ];
 
@@ -74,7 +74,7 @@ const TeamSection = () => {
                 
                 {/* Image */}
                 <a
-                  href={member.instagram}
+                  href={member.github}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block relative"
@@ -85,9 +85,9 @@ const TeamSection = () => {
                     className="w-40 h-40 md:w-48 md:h-48 rounded-full object-cover border-4 border-border team-member-img mx-auto"
                   />
                   
-                  {/* Instagram Overlay */}
+                  {/* Github Overlay */}
                   <div className="absolute inset-0 rounded-full bg-primary/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                    <Instagram className="text-foreground" size={32} />
+                    <Github className="text-foreground" size={32} />
                   </div>
                 </a>
               </div>
