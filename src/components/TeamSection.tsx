@@ -7,13 +7,13 @@ import ari8bit from '@/assets/Ari.jpg';
 const teamMembers = [
   {
     name: 'BadutZY',
-    role: 'Lead Programmer',
+    role: 'Game Programmer',
     image: badutzy,
     github: 'https://github.com/BadutZY'
   },
   {
     name: 'SwimmingFox',
-    role: 'Art Director',
+    role: 'Sprite Artist',
     image: swimmingfox,
     github: 'https://github.com/Marrwertz'
   },
